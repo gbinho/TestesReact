@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import './Card';
+import Card from './Card';
 
 function App() {
   return (
@@ -21,7 +21,10 @@ function App() {
       <div className='Card'>
         Exemplo de conteúdo
       </div>
-      ./Card
+      <Card />
+      <Card />
+      <Card />
+      <Card />
       
     </div>
   );
